@@ -1,5 +1,6 @@
 #define MYNN_DBG_LVL 3000
 !WRF:MODEL_LAYER:PHYSICS
+! Research version thaxton_v01
 !
 ! translated from NN f77 to F90 and put into WRF by Mariusz Pagowski
 ! NOAA/GSD & CIRA/CSU, Feb 2008

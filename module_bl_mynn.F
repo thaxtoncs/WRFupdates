@@ -698,9 +698,9 @@ CONTAINS
        alp3 = 3.0
        alp4 = 10.
        alp5 = 0.3
-    ELSEIF ( bl_mynn_mixlength .GE. 10 ) THEN
+    ELSEIF ( bl_mynn_mixlength .GE. 100 ) THEN
        cns  = 3.5
-       alp1 = ( bl_mynn_mixlength-10.0 )/10.0  ! Thaxton v01: investigate elt contribution
+       alp1 = ( bl_mynn_mixlength-100.0 )/100.0  ! Thaxton v01: investigate elt contribution
        alp2 = 0.25
        alp3 = 3.0
        alp4 = 10.
